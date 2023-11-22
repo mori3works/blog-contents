@@ -1,0 +1,3 @@
+[submodule "post-37"]
+	path = post-37
+	url = git@github.com:mori3works/pwsh-bat-converter.git
