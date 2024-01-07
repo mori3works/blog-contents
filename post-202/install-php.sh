@@ -68,7 +68,7 @@ fi
 if [ ! "${_already_satisfied}" = 1 ]
 then
     echo "INFO: Installing ${_php_req}(${_packages_install//${_php_cur}/${_php_req}}) started."
-    sudo apt install -y ${_packages//${_php_cur}/${_php_req}}
+    sudo apt install -y ${_packages_install//${_php_cur}/${_php_req}}
     echo "INFO: Installing completed."
 else
     echo "INFO: Requirements is already satisified. Skipping."
